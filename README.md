@@ -1,4 +1,3 @@
-````markdown
 # Big Aunt Record
 
 **Big Aunt Record** is a WeChat Mini Program that helps users track and record their **big aunt** (menstrual) cycles.
@@ -81,4 +80,4 @@
 ## License
 
 This project is intended for personal, learning, or demo use. For commercial applications, please follow the relevant laws and include proper attributions.
-```
+
