@@ -1,0 +1,8 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore the private config
+project.private.config.json
+
+# Logs or other temporary files
+*.log

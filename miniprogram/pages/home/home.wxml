@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="header">
+    <text class="title">Big Aunt Record</text>
+  </view>
+
+  <view class="recent-info">
+    <block wx:if="{{lastRecord}}">
+      <text>Last Big Aunt Start: {{lastRecord.startDate}}</text>
+      <text>Last Big Aunt End: {{lastRecord.endDate}}</text>
+      <text>This Big Aunt Duration: {{lastRecord.duration}} days</text>
+    </block>
+    <block wx:else>
+      <text>No record yet</text>
+    </block>
+  </view>
+
+  <view style="margin-top: 20px;">
+    <button bindtap="goToRecord">Go to Record</button>
+    <button bindtap="goToHistory" style="margin-left: 10px;">View History</button>
+  </view>
+</view>

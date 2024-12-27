@@ -1,0 +1,15 @@
+.container {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+.picker-view {
+  background-color: #f3f3f3;
+  padding: 8px;
+  margin-top: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}

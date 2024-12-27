@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/record/record",
+    "pages/history/history"
+  ],
+  "window": {
+    "navigationBarTitleText": "Big Aunt Record",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  }
+}

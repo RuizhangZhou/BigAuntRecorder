@@ -1,0 +1,12 @@
+.container {
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.recent-info text {
+  display: block;
+  margin: 5px 0;
+}

@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="section">
+    <label>Start Date</label>
+    <picker mode="date" value="{{startDate}}" bindchange="onStartDateChange">
+      <view class="picker-view">{{startDate}}</view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <label>End Date</label>
+    <picker mode="date" value="{{endDate}}" bindchange="onEndDateChange">
+      <view class="picker-view">{{endDate}}</view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <label>Notes</label>
+    <textarea
+      placeholder="You can write your mood, symptoms, etc."
+      value="{{notes}}"
+      bindinput="onNotesInput"
+      maxlength="-1"
+    ></textarea>
+  </view>
+
+  <view style="margin-top: 20px;">
+    <button bindtap="saveRecord">Save</button>
+  </view>
+</view>

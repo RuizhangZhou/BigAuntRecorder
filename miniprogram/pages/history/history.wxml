@@ -1,0 +1,13 @@
+<view class="container">
+  <block wx:if="{{history.length > 0}}">
+    <block wx:for="{{history}}" wx:key="index">
+      <view class="history-item">
+        <text>Start: {{item.startDate}}  End: {{item.endDate}}</text>
+        <text>Notes: {{item.notes}}</text>
+      </view>
+    </block>
+  </block>
+  <block wx:else>
+    <text>No history yet</text>
+  </block>
+</view>
